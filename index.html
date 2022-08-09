@@ -1,0 +1,432 @@
+
+
+<style>
+  .titles
+  {
+    color:white;
+
+    text-align:center;
+    padding-top:100px;
+    font-family:'Poppins', sans-serif;
+    padding-bottom:30px;
+    font-size:50px;
+  }
+  .description
+  {
+    color:white;
+    text-align:center;
+    font-size:30px;
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+
+      padding-bottom:60px;
+      font-style:italic;
+
+  }
+  form
+  {
+    background: rgba(0,51,102,0.6);
+    opacity:0.8;
+
+    text-align:left;
+    color:white;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:100px;
+    border-radius: 25px;
+    padding-bottom:100px;
+
+
+  }
+body
+{
+background:white;
+padding-left:250px;
+padding-right:250px;
+background-image: url(https://i.imgur.com/s7YD8Ob.jpg);
+background-repeat:no-repeat;
+  background-size: cover;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+  font:30px;
+  width:100%;
+  text-align: start;
+  border-radius:10px;
+
+  height:300px;
+  box-sizing: border-box;
+      white-space: pre-wrap;
+      padding-top:0px;
+      margin-top:0px;
+}
+
+.imgarcane
+{
+  height:800px;
+  width:600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 20px 90px 10px grey;
+  margin-bottom:50px;
+}
+.imgarcane:hover{
+opacity:0.8;
+}
+
+input[type=checkbox] {
+  width:15px;
+  height:15px;
+  opacity:0.6;
+}
+
+
+
+input[type=radio] {
+width:15px;
+height:15px;
+  opacity:0.6;
+}
+label
+{
+  font-size:40px;
+  width:100%;
+}
+
+
+@font-face {
+    font-family: 'arcane_nineregular';
+    src: url('arcane_nine-webfont.woff2') format('woff2'),
+         url('arcane_nine-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+input
+{
+  border-radius:10px;
+  border:none;
+}
+.Nume
+{
+  color:white;
+  text-align:left;
+  opacity:0.99;
+  font-size:30px;
+  font-family:'Poppins', sans-serif;
+}
+.email
+{
+  color:white;
+  font-size:30px;
+  font-family:'Poppins', sans-serif;
+}
+.vlikely
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+  font-family:'Poppins', sans-serif;
+  font-size:20px;
+  opacity:0.8;
+}
+.likely
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+  font-family:'Poppins', sans-serif;
+    font-size:20px;
+    opacity:0.8;
+}
+.neutral
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+  font-family:'Poppins', sans-serif;
+    font-size:20px;
+    opacity:0.8;
+}
+.unlikely
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+  font-family:'Poppins', sans-serif;
+    font-size:20px;
+    opacity:0.8;
+}
+.vunlikely
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+  font-family:'Poppins', sans-serif;
+    font-size:20px;
+    opacity:0.8;
+}
+.anim
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+    font-family:'Poppins', sans-serif;
+    font-size:20px;
+      opacity:0.8;
+}
+
+.storyline
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+    font-family:'Poppins', sans-serif;
+    font-size:20px;
+      opacity:0.8;
+}
+.pacing
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+    font-family:'Poppins', sans-serif;
+    font-size:20px;
+      opacity:0.8;
+}
+.cdev
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+    font-family:'Poppins', sans-serif;
+    font-size:20px;
+      opacity:0.8;
+}
+.vactors
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+    font-family:'Poppins', sans-serif;
+    font-size:20px;
+      opacity:0.8;
+}
+.wbuild
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+    font-family:'Poppins', sans-serif;
+    font-size:20px;
+      opacity:0.8;
+}
+.improv
+{
+  display: block;
+  color: white;
+  margin: 10 0 4px;
+    font-family:'Poppins', sans-serif;
+    font-size:20px;
+      opacity:0.8;
+}
+.sugg
+{
+  display: block;
+  color: white;
+  margin: 10 0 40px;
+    font-family:'Poppins', sans-serif;
+    font-size:30px;
+    padding-bottom:60px;
+    padding-top:30px;
+
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size:20px;
+    font-family:'Poppins', sans-serif;
+    opacity:0.6;
+}
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size:20px;
+    font-family:'Poppins', sans-serif;
+    opacity:0.6;
+}
+
+input[type=number]::hover
+{
+    box-shadow: 10px 20px 90px 10px grey;
+}
+.numberr
+{
+  color:white;
+  font-size:30px;
+    font-family:'Poppins', sans-serif;
+}
+.age
+{
+  color:white;
+  font-size:30px;
+    font-family:'Poppins', sans-serif;
+}
+.recomm
+{
+  padding-top:35px;
+  padding-bottom:35px;
+  font-size:30px;
+    font-family:'Poppins', sans-serif;
+}
+.favcara
+{
+  padding-top:35px;
+  padding-bottom:35px;
+  font-size:30px;
+    font-family:'Poppins', sans-serif;
+    border-radius:10px;
+
+}
+.improv
+{
+  padding-top:35px;
+  padding-bottom:35px;
+  font-size:30px;
+    font-family:'Poppins', sans-serif;
+}
+
+.final
+{
+
+  font-size:30px;
+    font-family:'Poppins', sans-serif;
+
+}
+.textintr
+{
+  writing-mode: horizontal-tb !important;
+  height:150px;
+  border-radius:10px;
+  text-align:start;
+  display: inline-block;
+  text-indent:0px;
+  padding:0px 0px 0px 0px;
+
+}
+.submit
+{
+  width:100%;
+  height:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+  font-weight:bold;
+  font-size:16px;
+  font-family:'Poppins', sans-serif;
+  cursor: pointer;
+padding: 1rem;
+border-radius: 10px;
+background:#37af65;border-style: outset;
+border:none;
+
+}
+
+  </style>
+  <html>
+  <main>
+
+      <body>
+<h1 class="titles"> Survey Form </h1>
+<p class="description"> A survey that aims to gather information regarding the animation "Arcane".</p>
+<img class="imgarcane" src="https://uauposters.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/4/945720211216-uau-posters-arcane-league-of-legends-lol-series-1.jpg">
+<form class="survey-form">
+  <p class="Nume">Name</p>
+ <input class="namein"type="text" required placeholder="Enter your name.">
+ <p class="email">Email</p>
+ <input type="text" required placeholder="Enter your email.">
+ <p class="numberr">Number</p>
+ <input type="number"  placeholder="Enter your phone number.">
+ <p class="age"> Age </p>
+ <input type="number"  placeholder="Enter your age.">
+ <p class="recomm"> Would you recommend Arcane to a friend? </p>
+
+ <label class="vlikely">
+ <input name="recomandare" value="Very likely" type="radio">
+ Very likely
+ </label>
+
+ <label class="likely">
+ <input name="recomandare" value="Likely" type="radio">
+ Likely
+ </label>
+
+ <label class="neutral">
+  <input name="recomandare" value="Neutral" type="radio">
+  Neutral
+  </label>
+
+
+  <label class="unlikely">
+   <input name="recomandare" value="Unlikely" type="radio">
+   Unlikely
+    </label>
+
+
+    <label class="vunlikely">
+     <input name="recomandare" value="Very unlikely" type="radio">
+     Very unlikely
+     </label>
+
+ <p class="favcara"> Who was your favorite character? </p>
+
+ <input  type="text" placeholder="Enter the character name.">
+ <p class="improv"> What would you like to see improved in the next season of Arcane? </p>
+
+<label class="anim">
+ <input name="changes" value="Animation" type="checkbox">
+ Animation
+</label>
+
+<label class="storyline">
+ <input name="changes" value="Storyline" type="checkbox">
+ Storyline
+</label>
+<label class="pacing">
+   <input name="changes" value="Pacing" type="checkbox">
+   Pacing
+   </label>
+
+<label class="cdev">
+  <input name="changes" value="Character Development" type="checkbox">
+  Character Development
+  </label>
+
+  <label class="vactors">
+  <input name="changes" value="Voice actors" type="checkbox">
+  Voice actors
+  </label>
+ <label class="wbuild">
+  <input name="changes" value="World Building" type="checkbox">
+  World Building
+  </label>
+<p class="sugg">   Any suggestions or comments? </p>
+  <label class="final" >
+
+    <input  type="text" class="textintr"  placeholder="Enter your suggestions or comments.">
+    </label>
+
+    <button type="submit" class="submit" > Submit</button>
+    </body>
+<main>
+
+    </html>
